@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "How are you?", "Is anyone there?", "Good day"],
+      "responses": ["Hello!", "Hi there!", "Greetings!", "How can I assist you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["Goodbye!", "See you later!", "Have a great day!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "What is your age?", "How old are you"],
+      "responses": ["I am a bot, I don't have an age.", "Age is just a number!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name?", "Who are you?", "Can you tell me your name?"],
+      "responses": ["I am a chatbot created to assist you.", "You can call me Chatbot."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "Is it going to rain today?", "Weather forecast"],
+      "responses": ["Let me check the weather for you.", "Hold on, I'll get the latest weather update."]
+    },
+    {
+      "tag": "date",
+      "patterns": ["What's the date today?", "What is today's date?", "Tell me the date"],
+      "responses": ["Today's date is [current_date].", "It's [current_date] today."]
+    },
+    {
+      "tag": "open_google",
+      "patterns": ["Open Google", "Launch Google", "Start Google"],
+      "responses": ["Opening Google for you.", "Launching Google."]
+    }
+  ]
+}
